@@ -21,6 +21,7 @@ specifiers:
   sass: ^1.69.5
   tailwindcss: ^3.3.6
   terser: ^5.4.0
+  tippy.js: ^6.3.7
   typescript: ^5.2.2
   vite: ^5.0.0
   vite-plugin-svg-icons: ^2.0.1
@@ -33,6 +34,7 @@ dependencies:
   ant-design-vue: 4.0.0-rc.6_vue@3.3.11
   axios: 1.6.2
   pinia: 2.1.7_jznffceu4jicgzkmr7l2tgebxm
+  tippy.js: 6.3.7
   vue: 3.3.11_typescript@5.3.3
   vue-i18n: 9.8.0_vue@3.3.11
   vue-router: 4.2.5_vue@3.3.11
@@ -1618,6 +1620,10 @@ packages:
       picocolors: 1.0.0
       tslib: 2.6.2
     dev: true
+
+  /@popperjs/core/2.11.8:
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
+    dev: false
 
   /@rollup/rollup-android-arm-eabi/4.8.0:
     resolution: {integrity: sha512-zdTObFRoNENrdPpnTNnhOljYIcOX7aI7+7wyrSpPFFIOf/nRdedE6IYsjaBE7tjukphh1tMTojgJ7p3lKY8x6Q==}
@@ -4978,6 +4984,12 @@ packages:
   /throttle-debounce/5.0.0:
     resolution: {integrity: sha512-2iQTSgkkc1Zyk0MeVrt/3BvuOXYPl/R8Z0U2xxo9rjwNciaHDG3R+Lm6dh4EeUci49DanvBnuqI6jshoQQRGEg==}
     engines: {node: '>=12.22'}
+    dev: false
+
+  /tippy.js/6.3.7:
+    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
+    dependencies:
+      '@popperjs/core': 2.11.8
     dev: false
 
   /titleize/3.0.0:

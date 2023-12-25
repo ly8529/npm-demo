@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
-	{ path: '/', component: () => import('@/components/HelloWorld.vue') },
+	{ path: '/', component: () => import('@/components/tippy.vue') },
 	{ path: '/login', component: () => import('@/pages/login.vue') },
 	{ path: '/account', component: () => import('@/pages/account.vue') },
 	// { path: '/:pathMatch(.*)', redirect: '/'  },
